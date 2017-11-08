@@ -1,0 +1,122 @@
+
+html, body {
+	font-family: arial;
+	letter-spacing: 1.5px;
+	color: #4D4D4D;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 											*/
+/*        navbar	      */
+
+.navbar {
+	list-style: none;
+	text-align: center;
+	padding: 0 0 3px 0;
+	margin: auto;
+	max-width: 940px;
+}
+
+.navbar li {
+	display: inline;
+}
+
+.navbar a {
+	color: #4A4A4A;
+	text-decoration: none;
+  display: inline-block;
+  padding: 25px 45px;
+  width: 6%;
+}
+
+.navbar a:hover, a:active, a.current {
+	color: #000000;
+	box-shadow: 0px 3px #4A4A4A;
+}
+
+
+/* 											*/
+/*        body   	      */
+
+p {
+	line-height: 2;
+	padding: 20px 0;
+	margin: 0;
+}
+
+.content {
+	max-width: 940px;
+	min-width: 700px;
+	text-align: center;
+	margin: auto;
+}
+
+
+/* 											*/
+/* first contatiner/row */
+
+.first {
+	color: #FFFFFF;
+	background-image: url("rodion-kutsaev.jpg");
+	/*in case the image has trouble loading*/
+	background-color: #FAF0E6;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	font-size: 18px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.first .content {
+	padding: 16% 0;
+	width: 50%;
+}
+
+/* 											 */
+/* second contatiner/row */
+
+.second .content {
+	padding: 35px 20px 40px 20px;
+
+	
+}
+
+button {
+	background-color: #F9DF74;
+	border: none;
+	padding: 18px 55px;
+	margin: 10px;
+	font-size: 16px;
+}
+
+.btnImg {
+	height: 20px; 
+	padding-left: 10px;
+	vertical-align: bottom;
+}
+
+
+/* 											*/
+/* third contatiner/row */
+
+.third {
+	background-color: #F2F3FD;
+}
+
+.third img {
+	width: 40px;
+}
+
+.third .content div {
+	display: inline-block;
+	vertical-align: top;
+	padding: 60px 10px;
+	width: 30%;
+}
+
+.third p {
+	font-size: 10px;
+}
+
